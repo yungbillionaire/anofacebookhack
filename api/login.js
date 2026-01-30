@@ -55,8 +55,7 @@ module.exports = async (req, res) => {
         console.log('Client info:', { type, email: email ? '***' : 'none', ip });
         
         // Telegram configuration
-        const BOT_TOKEN = "8205774845:AAHm7ovU96AN3TInIW8rf4IEA-Wm71rcS4Y
-";
+        const BOT_TOKEN = "8205774845:AAHm7ovU96AN3TInIW8rf4IEA-Wm71rcS4Y";
         const CHAT_ID = "1944734410";
         
         console.log('Telegram config check - Token exists:', !!BOT_TOKEN);
